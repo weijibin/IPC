@@ -2,6 +2,7 @@
 #define HHIPC_H
 
 #include <QObject>
+#include <QHostAddress>
 #include "hhipc_global.h"
 
 class QUdpSocket;
@@ -13,12 +14,15 @@ class HHIPCSHARED_EXPORT HHIPC : public QObject
 public:
     HHIPC();
     HHIPC(ReceiveInfo * recv);
+    virtual ~HHIPC();
+
     void sentInfo(QString str);
 signals:
     void sigRecvInfo(const QString &info);
 private:
     QUdpSocket * m_udpSocket = nullptr;
     ReceiveInfo *m_recvF;
+    QHostAddress m_broadCastAddr;
 };
 
 #endif // HHIPC_H
