@@ -11,19 +11,14 @@ class HHIPCSHARED_EXPORT HHIPC : public QObject
 {
     Q_OBJECT
 public:
-
     HHIPC();
     HHIPC(ReceiveInfo * recv);
-
     void sentInfo(QString str);
-
 signals:
     void sigRecvInfo(const QString &info);
-
 private:
     QUdpSocket * m_udpSocket = nullptr;
     ReceiveInfo *m_recvF;
-
 };
 
 #endif // HHIPC_H
