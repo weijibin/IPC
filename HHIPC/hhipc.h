@@ -2,27 +2,27 @@
 #define HHIPC_H
 
 #include <QObject>
-#include <QHostAddress>
 #include "hhipc_global.h"
 
-class QUdpSocket;
-
-typedef void (*ReceiveInfo)(QString str);
+class MyUdpSocket;
 class HHIPCSHARED_EXPORT HHIPC : public QObject
 {
     Q_OBJECT
 public:
-    HHIPC();
-    HHIPC(ReceiveInfo * recv);
+    /**
+    Description:	根据端口号 创建IPC对象
+    @param	[in]	端口号port (推荐范围：23333~25555)
+    @exception      none
+    */
+    HHIPC(int port = 23333);
     virtual ~HHIPC();
-
-    void sentInfo(QString str);
+    void sentInfo(const QString &str);
 signals:
     void sigRecvInfo(const QString &info);
 private:
-    QUdpSocket * m_udpSocket = nullptr;
-    ReceiveInfo *m_recvF;
-    QHostAddress m_broadCastAddr;
+    MyUdpSocket * mysocket = nullptr;
+private:
+    int m_port = 23333;
 };
 
 #endif // HHIPC_H

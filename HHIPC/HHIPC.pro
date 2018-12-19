@@ -6,6 +6,8 @@
 
 QT       += network
 
+QT      += concurrent
+
 QT       -= gui
 
 CONFIG += c++11
@@ -27,18 +29,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        hhipc.cpp
+        hhipc.cpp \
+    myudpsocket.cpp
 
 HEADERS += \
         hhipc.h \
-        hhipc_global.h 
+        hhipc_global.h \ 
+    myudpsocket.h
+
+LIBS += -lWs2_32
 
 win32:{
         CONFIG(release, debug|release):{
-            DESTDIR = $$PWD/../Bin/Release/X86
+            DESTDIR = $$PWD/../../Bin/Release/X86
         }
         else:CONFIG(debug, debug|release):{
-            DESTDIR = $$PWD/../Bin/Debug/X86
+            DESTDIR = $$PWD/../../Bin/Debug/X86
         }
     }
 

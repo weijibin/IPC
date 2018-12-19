@@ -21,6 +21,9 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void sltRecvMsg(const QString &str);
+    void sltRecvMsg1(const QString &str);
+
 private:
     Ui::Widget *ui;
     QUdpSocket *udpSocket;
