@@ -1,0 +1,160 @@
+{
+    "eventid": "ID_EXTERNAL_INSERT_STROKESSMOOTH",
+    "from": "ID_APP_HITEBRIDGE",
+    "property": {
+        "Strokes": [
+            {
+                "json": {
+                    "Angle": "0",
+                    "BoundingBox": "1414.99,805.99,1536.97,899.01",
+                    "Color": "#fffe1d11",
+                    "DashStyle": "SolidLine",
+                    "Editable": "1",
+                    "EndCap": "NoDecorator",
+                    "HorizonFlip": "0",
+                    "ID": "1546945996132",
+                    "InfiniteClone": "0",
+                    "InteractiveType": "",
+                    "InteractiveValue": "",
+                    "LockIn": "0",
+                    "StartCap": "NoDecorator",
+                    "Type": "HHSmoothStroke",
+                    "VerticalFlip": "0",
+                    "Visible": true,
+                    "Width": 5,
+                    "XY": "1533,806,2,1,2,3,0,6,0,4,0,7,-3,7,-7,10,-12,12,-15,12,-17,8,-16,8,-12,5,-11,5,-10,3,-4,1,-4,1,-4,0,-3,0,-4,0",
+                    "animations": {
+                        "appearance": {
+                            "category": "APPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "disappearance": {
+                            "category": "DISAPPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "emphasis": {
+                            "category": "EMPHASIS",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        }
+                    }
+                },
+                "rotate": 0,
+                "scale": 1
+            },
+            {
+                "json": {
+                    "Angle": "0",
+                    "BoundingBox": "1272.03,562.99,1444.01,867.01",
+                    "Color": "#fffe1d11",
+                    "DashStyle": "SolidLine",
+                    "Editable": "1",
+                    "EndCap": "NoDecorator",
+                    "HorizonFlip": "0",
+                    "ID": "1546945995620",
+                    "InfiniteClone": "0",
+                    "InteractiveType": "",
+                    "InteractiveValue": "",
+                    "LockIn": "0",
+                    "StartCap": "NoDecorator",
+                    "Type": "HHSmoothStroke",
+                    "VerticalFlip": "0",
+                    "Visible": true,
+                    "Width": 5,
+                    "XY": "1433,563,4,0,4,7,2,7,1,7,0,8,0,7,0,9,0,6,0,6,0,6,0,7,-3,4,-2,11,-5,16,-5,14,-5,17,-6,17,-4,16,-12,19,-6,10,-4,7,-4,2,-5,3,-4,1,-6,1,-4,2,-4,0,-4,0,-3,0,-4,0,-5,1,-3,0,-2,2,-2,1,-3,1,-1,2,-7,6,-2,2,-4,3,-3,2,-6,4,-2,1,-2,1,-3,2,-5,4,-4,5,-5,5,-4,3,-5,5,-2,2,-5,3,-1,2,-2,1,-2,1,0,3,-2,2,0,4,0,3,0,5,2,4,2,3,4,2,3,3,5,2,4,0,4,0,9,3,6,0,7,0,11,0,9,1,9,0,11,0,8,0,8,0,7,0,7,0,2,0",
+                    "animations": {
+                        "appearance": {
+                            "category": "APPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "disappearance": {
+                            "category": "DISAPPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "emphasis": {
+                            "category": "EMPHASIS",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        }
+                    }
+                },
+                "rotate": 0,
+                "scale": 1
+            },
+            {
+                "json": {
+                    "Angle": "0",
+                    "BoundingBox": "551.99,395.19,1342.35,875.001",
+                    "Color": "#fffe1d11",
+                    "DashStyle": "SolidLine",
+                    "Editable": "1",
+                    "EndCap": "NoDecorator",
+                    "HorizonFlip": "0",
+                    "ID": "1546945971554",
+                    "InfiniteClone": "0",
+                    "InteractiveType": "",
+                    "InteractiveValue": "",
+                    "LockIn": "0",
+                    "StartCap": "NoDecorator",
+                    "Type": "HHSmoothStroke",
+                    "VerticalFlip": "0",
+                    "Visible": true,
+                    "Width": 5,
+                    "XY": "552,677,3,-3,14,-5,29,-17,56,-29,64,-34,77,-40,74,-30,77,-33,71,-28,71,-26,62,-16,51,-16,37,-3,28,-4,10,5,1,4,0,11,-11,24,-35,39,-52,42,-70,44,-91,43,-92,31,-102,23,-92,11,-77,4,-51,0,-21,-3,-2,-3,4,-3,27,-15,68,-26,81,-21,99,-23,101,-11,106,-16,109,-11,79,0,58,9,26,13,6,11,0,16,-15,29,-39,35,-64,34,-87,34,-105,34,-107,21,-101,11,-88,11,-54,0,-24,0,-6,0,17,-2,48,-11,61,-8,80,-11,73,0,62,0,47,4,27,8,9,6,0,4,-3,10,-13,8,-35,20,-57,21,-62,14,-64,10,-62,2,-54,0,-33,0,-13,0,-3,0,6,-2,10,-6",
+                    "animations": {
+                        "appearance": {
+                            "category": "APPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "disappearance": {
+                            "category": "DISAPPEARANCE",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        },
+                        "emphasis": {
+                            "category": "EMPHASIS",
+                            "id": "",
+                            "number": 0,
+                            "trigger": "CLICK",
+                            "trigger_source": "PAGEKEY",
+                            "type": "EFFECT_NO"
+                        }
+                    }
+                },
+                "rotate": 0,
+                "scale": 1
+            }
+        ]
+    },
+    "scenario": "ID_SCENARIO_PREPARING",
+    "to": "ID_APP_HITETOUCHPRO"
+}
